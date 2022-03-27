@@ -1,0 +1,17 @@
+{
+  "name": "users-data-organizer",
+  "version": "1.0.0",
+  "description": "This program will organize your users data, extracting all of addresses of a .csv file from a .json.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "google-libphonenumber": "^3.2.27",
+    "line-reader": "^0.4.0",
+    "readline": "^1.3.0"
+  }
+}
