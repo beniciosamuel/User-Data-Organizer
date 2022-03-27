@@ -1,6 +1,6 @@
 [
 	{
-		"fullname": "John Appleseed;",
+		"fullname": "John Appleseed",
 		"eid": "104;",
 		"groups": [
 			"Sala 1",
@@ -15,7 +15,7 @@
 				"tags": [
 					"Student"
 				],
-				"address": "john.appleseed@exemplo.com:"
+				"address": "john.appleseed@exemplo.com"
 			},
 			{
 				"type": "email",
@@ -92,7 +92,7 @@
 		"see_all": false
 	},
 	{
-		"fullname": "Mary Knight;",
+		"fullname": "Mary Knight",
 		"eid": "105;",
 		"groups": [
 			"Sala 4",
@@ -135,7 +135,7 @@
 		"see_all": false
 	},
 	{
-		"fullname": "Jack Littleton;",
+		"fullname": "Jack Littleton",
 		"eid": "106;",
 		"groups": [
 			"Sala 1"
@@ -177,7 +177,7 @@
 		"see_all": false
 	},
 	{
-		"fullname": "Kate Goldman;",
+		"fullname": "Kate Goldman",
 		"eid": "107;",
 		"groups": [
 			"Sala 6",

@@ -1,6 +1,6 @@
 [
 	{
-		"fullname": "John Appleseed;",
+		"fullname": "John Appleseed",
 		"eid": "1121;",
 		"groups": [
 			"Turma 1",
@@ -9,7 +9,7 @@
 			"Turma 6",
 			"Noturno"
 		],
-		"adresses": [
+		"addresses": [
 			{
 				"type": "email",
 				"tags": [
@@ -36,7 +36,7 @@
 		"see_all": true
 	},
 	{
-		"fullname": "John Appleseed;",
+		"fullname": "John Appleseed",
 		"eid": "1222;",
 		"groups": [
 			"Turma 2",
@@ -44,7 +44,7 @@
 			"Turma 6",
 			"Diurno"
 		],
-		"adresses": [
+		"addresses": [
 			{
 				"type": "email",
 				"tags": [
@@ -78,10 +78,10 @@
 		"see_all": false
 	},
 	{
-		"fullname": "Mary Knight;",
+		"fullname": "Mary Knight",
 		"eid": "1123;",
 		"groups": [],
-		"adresses": [
+		"addresses": [
 			{
 				"type": "phone",
 				"tags": [
@@ -101,12 +101,12 @@
 		"see_all": false
 	},
 	{
-		"fullname": "Jack Littleton;",
+		"fullname": "Jack Littleton",
 		"eid": "1124;",
 		"groups": [
 			"Sala 1"
 		],
-		"adresses": [
+		"addresses": [
 			{
 				"type": "email",
 				"tags": [

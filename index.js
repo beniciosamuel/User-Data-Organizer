@@ -16,8 +16,8 @@ import libphonenumber from 'google-libphonenumber';
 const phoneUtil = libphonenumber.PhoneNumberUtil.getInstance();
 
 // Paths of files
-const pathInput = './input.csv';
-const pathOutput = './output.json';
+const pathInput = './input1.csv';
+const pathOutput = './output1.json';
 
 // Setup the Enviroment
 let studentsData = []; // A docker to contents of Users
@@ -121,12 +121,11 @@ function organizer(studentData) {
 
                     // Transform the occurrence in a email.
                     const regex = /\S+@\S+\.\S+/;
-                    if (type == 'email' && regex.test(el) == true) {
-                        
+                    if (type == 'email' && regex.test(el) == true) {                        
                         addresses.push({
                             "type": type,
                             "tags": tags,
-                            "address": el.replace(/[\;" (),]/gi, "")
+                            "address": el.replace(/[\;:" (),]/gi, "")
                         })
                     }
                 }
@@ -146,12 +145,12 @@ function organizer(studentData) {
     // single array of objects.
     rawAddresses.forEach(arrm => {
         arrm.forEach(el => {
-            concludedAdress.push(el);
+            concludedAddress.push(el);
         })
     })
 
     return {
-        "fullname": studentData.fullname,
+        "fullname": studentData.fullname.replace(';', ''),
         "eid": studentData.eid,
         "groups": [... new Set(groups)],
         "addresses": [... new Set(concludedAddress)],
